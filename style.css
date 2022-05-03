@@ -1,0 +1,122 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+  overflow: hidden;
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background: -webkit-linear-gradient(0deg, #4fbc8a, #1da3c9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 52px;
+  margin: 50px 0;
+}
+.logo-nubisoft {
+  position: absolute;
+  top: 15%;
+  left: 88%;
+  opacity: 0.2;
+  transform: translate(-50%, -50%);
+}
+.logo-skillup {
+  position: absolute;
+  top: 85%;
+  left: 10%;
+  opacity: 0.2;
+  transform: translate(-50%, -50%);
+}
+.skillup-text {
+  position: absolute;
+  top: 90%;
+  left: 88%;
+  opacity: 0.2;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+}
+/* FORMSUBMIT */
+
+.formsubmit-wrapper {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.formsubmit-wrapper form {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+.formsubmit-wrapper form input,
+textarea {
+  margin-top: 20px;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #1da3c9;
+  outline: 0;
+  font-size: 1.3rem;
+  color: black;
+  padding: 7px 0;
+  background: transparent;
+}
+textarea {
+  max-height: 120px;
+  resize: none;
+}
+.formsubmit-wrapper form button {
+  align-self: flex-end;
+  margin-top: 60px;
+  width: 135px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: -webkit-linear-gradient(45deg, #4fbc8a, #1da3c9);
+  color: #fff;
+  font-size: 22px;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 0 6px 20px -5px #1da4c980;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.formsubmit-wrapper form button:hover {
+  box-shadow: 0 10px 20px -3px #1da4c97e;
+}
+
+.thank-you-page h1 {
+  text-align: center;
+  margin: 100px 0;
+}
+.thank-you-page p {
+  text-align: center;
+  font-size: 70px;
+  color: #0ca0cb;
+  font-weight: bold;
+}
+.thank-you-page a {
+  text-decoration: none;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.thank-you-page a img {
+  width: 120%;
+}
+.random-meme-wrapper {
+  text-align: center;
+  margin: 0 auto;
+}
+.random-meme:hover {
+  opacity: 1;
+}
+.random-meme {
+  text-align: center;
+  margin: 0 auto;
+  opacity: 0;
+  transition: 0.4s;
+}
